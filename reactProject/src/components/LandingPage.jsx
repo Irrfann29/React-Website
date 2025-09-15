@@ -4,15 +4,15 @@ import { faCoffee,faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
 const LandingPage = () => {
     return (
-        <div className='w-full h-screen bg-zinc-900 text-white items-center pt-[11%]  '>
+        <div className='w-full h-screen  text-white items-center pt-[11%]  '>
 
             <div className="textstructure pl-[3.5%]">
                 <div className="masker font-foundersGrotesk text-[135px] uppercase leading-18 tracking-[0.015em]">
                     We create
                 </div>
                 <div className="masker font-foundersGrotesk text-[135px] uppercase leading-32 tracking-[0.015em] flex items-center">
-                    <div className='bg-emerald-400 mt-3 h-23 w-35 rounded-lg'></div>
-                    <div className='ml-4'>eye-opening</div>
+                    <div className='bg-emerald-400 mt-3 h-23 w-35 rounded-lg mr-4'></div>
+                    <div className=''>eye-opening</div>
                 </div>
                 <div className="masker font-foundersGrotesk text-[135px] uppercase leading-18 tracking-[0.015em]">
                     presentations
