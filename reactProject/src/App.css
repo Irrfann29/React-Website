@@ -1,0 +1,33 @@
+
+@font-face {
+	font-family: 'NeueMontreal';
+	src: url('./assets/fonts/NeueMontreal-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-neueMontreal {
+	font-family: 'NeueMontreal', sans-serif;
+}
+
+@font-face {
+	font-family: 'FoundersGrotesk-Semibold';
+	src: url('./assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-foundersGrotesk {
+	font-family: 'FoundersGrotesk-Semibold', sans-serif;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('./assets/fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-icomoon {
+	font-family: 'icomoon', sans-serif;
+}
