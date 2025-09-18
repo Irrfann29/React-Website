@@ -10,9 +10,10 @@ const App = () => {
     <>
   <div className='bg-[#121212]'>
     <Navbar/>
-  <LandingPage/>
-  <Marquee/>
-  <About/>
+    <LandingPage/>
+    <Marquee/>
+    <About/>
+  
   </div>
     </>
   )

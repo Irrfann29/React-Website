@@ -4,21 +4,21 @@ import { faCoffee,faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
 const LandingPage = () => {
     return (
-        <div className='w-full h-screen  text-white items-center pt-[11%]  '>
+        <div className='w-full h-[100vh]  text-white items-center pt-[11%]  '>
 
             <div className="textstructure pl-[3.5%]">
-                <div className="masker font-foundersGrotesk text-[135px] uppercase leading-18 tracking-[0.015em]">
+                <div className="masker font-foundersGrotesk text-[165px] uppercase leading-18 tracking-[0.015em]">
                     We create
                 </div>
-                <div className="masker font-foundersGrotesk text-[135px] uppercase leading-32 tracking-[0.015em] flex items-center">
-                    <div className='bg-emerald-400 mt-3 h-23 w-35 rounded-lg mr-4'></div>
+                <div className="masker font-foundersGrotesk text-[165px] uppercase leading-44 tracking-[0.015em] flex items-center">
+                    <div className='bg-emerald-400 mt-3 h-[100px] w-35 rounded-lg mr-4'></div>
                     <div className=''>eye-opening</div>
                 </div>
-                <div className="masker font-foundersGrotesk text-[135px] uppercase leading-18 tracking-[0.015em]">
+                <div className="masker font-foundersGrotesk text-[165px] uppercase leading-18 tracking-[0.015em]">
                     presentations
                 </div>
             </div>
-            <div className="border-t-1 border-zinc-600 mt-32 font-neueMontreal px-10 py-4 text-[17px]">
+            <div className="border-t-1 border-zinc-600 mt-32 font-neueMontreal px-10 py-4 text-xl">
                 <div className="options flex items-center justify-between ">
                     <ul>
                         <li>Presentation and storytelling agency</li>

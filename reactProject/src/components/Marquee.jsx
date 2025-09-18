@@ -12,23 +12,23 @@ const Marquee = () => {
                         repeatType: "loop",
                         ease: "linear",
                         duration: 7, // adjust speed
-                    }} className='leading-none text-[22vw] border-spacing-x-4 '>We Are Ochi ㅤ 
+                    }} className='leading-none text-[22vw] border-spacing-x-4 '>We Are Ochi|
 
- </motion.h1>
+                </motion.h1>
                 <motion.h1 animate={{ x: ["0%", "-100%"] }}
                     transition={{
                         repeat: Infinity,
                         repeatType: "loop",
                         ease: "linear",
                         duration: 7, // adjust speed
-                    }} className='leading-none text-[22vw] border-spacing-x-4 '>We Are Ochi ㅤ </motion.h1>
+                    }} className='leading-none text-[22vw] border-spacing-x-4 '>We Are Ochi|  </motion.h1>
                 <motion.h1 animate={{ x: ["0%", "-100%"] }}
                     transition={{
                         repeat: Infinity,
                         repeatType: "loop",
                         ease: "linear",
                         duration: 7, // adjust speed
-                    }} className='leading-none text-[22vw] border-spacing-x-4 '>We Are Ochi ㅤ </motion.h1>
+                    }} className='leading-none text-[22vw] border-spacing-x-4 '>We Are Ochi| </motion.h1>
 
 
             </div>
