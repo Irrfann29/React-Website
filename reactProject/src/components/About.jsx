@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='bg-[#948979] text-black w-full h-[100vh] font-neueMontreal'>
+    <div className='bg-[#948979] text-black w-full h-[105vh] font-neueMontreal border-b-1  border-zinc-600'>
       <div className='pt-28 pl-15 pr-60 pb-22 leading-18 border-b-1 border-zinc-600'>
         <h1 className='text-[3.5vw]'>We craft category-defining presentations, brand identities, and digital experiences that drive funding, sales, and market leadership.
 
