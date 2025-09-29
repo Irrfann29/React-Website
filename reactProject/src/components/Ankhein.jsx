@@ -48,12 +48,13 @@ function Eye() {
 
   return (
     <>
+    
     <div className="p-14 bg-white rounded-full shadow-lg">
       <div
       ref={eyeRef}
       className="relative w-44 h-44 rounded-full bg-black flex items-center justify-center overflow-hidden border-4"
     >
-      {/* Pupil */}
+      {/* Tircchhi Nazar wala part */}
       <motion.div
         style={{ x: smoothX, y: smoothY }}
         className="w-7 h-7 rounded-full bg-white"
@@ -65,6 +66,7 @@ function Eye() {
           blinking ? "translate-y-0" : "-translate-y-full"
         }`}
       />
+      
       <div
         className={`absolute bottom-0 left-0 w-full h-1/2 bg-white transition-transform duration-200 ${
           blinking ? "translate-y-0" : "translate-y-full"
@@ -72,6 +74,7 @@ function Eye() {
       />
     </div>
     </div>
+    
     </>
   );
 }
@@ -80,10 +83,13 @@ export default function Ankhein() {
   return (
     <>
     
-      <div className="flex items-center justify-center h-screen bg-white space-x-8 bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-center">
+      
+        <div className="flex items-center justify-center h-screen space-x-8 bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-center">
         <Eye />
       <Eye />
       </div>
+      <div className=' text-white font-neueMontreal px-20 mt-36 pb-20 text-6xl border-b-1 border-gray-500'>Feautured Projects</div>
+      
     
     </>
     

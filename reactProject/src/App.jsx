@@ -6,6 +6,7 @@ import Marquee from './components/Marquee';
 import About from './components/About';
 import MoreAbout from './components/MoreAbout';
 import Ankhein from './components/Ankhein';
+import Features from './components/Features';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
     <Marquee/>
     <About/>
     <MoreAbout/>
-    <Ankhein/>
+    <Ankhein className="bg-black"/>
+    <Features/>
   
   </div>
     </>
