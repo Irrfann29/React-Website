@@ -31,3 +31,16 @@
 .font-icomoon {
 	font-family: 'icomoon', sans-serif;
 }
+
+.cards{
+	transition: transform 0.5s ease;
+}
+.cards:hover {
+  transform: scale(0.95); /* shrink the div */
+}
+.imagwa{
+	transition: transform 0.8s ease;
+}
+.imagwa:hover {
+  transform: scale(1.1); /* zoom in the image */
+}
