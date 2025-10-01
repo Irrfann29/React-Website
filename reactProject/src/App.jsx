@@ -7,7 +7,6 @@ import About from './components/About';
 import MoreAbout from './components/MoreAbout';
 import Ankhein from './components/Ankhein';
 import Features from './components/Features';
-import Footer from './components/Footer';
 import Start from './components/Start';
 
 const App = () => {
@@ -22,7 +21,6 @@ const App = () => {
     <Ankhein className="bg-black"/>
     <Features/>
     <Start/>
-    <Footer/>
   
   </div>
     </>
